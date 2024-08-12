@@ -1,0 +1,29 @@
+{
+  "name": "latest",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "build:vn": "turbo build --filter=vn_web_test",
+    "dev": "turbo dev",
+    "dev:vn": "turbo dev --filter=vn_web_test --no-cache --force",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "rimraf": "^6.0.1",
+    "turbo": "^2.0.11",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ahooks": "^3.8.0",
+    "antd": "^5.20.0",
+    "axios": "^1.7.3",
+    "classnames": "^2.5.1",
+    "tailwindcss": "^3.4.9"
+  }
+}

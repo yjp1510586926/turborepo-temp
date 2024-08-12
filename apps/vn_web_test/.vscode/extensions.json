@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker",
+    "cschlosser.doxdocgen",
+    "shardulm94.trailing-spaces",
+    "spywhere.guides",
+    "oderwat.indent-rainbow",
+    "wengerk.highlight-bad-chars",
+    "vue.volar",
+    "shenjiaolong.vue-helper",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind"
+  ]
+}
