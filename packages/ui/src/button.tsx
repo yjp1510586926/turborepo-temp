@@ -7,15 +7,19 @@ interface ButtonProps {
   children: ReactNode;
   className?: string;
   appName: string;
+  onClickFunc: () => void;
 }
 
-export const VNButton = ({ children, className, appName }: ButtonProps) => {
+export const VNButton = ({
+  children,
+  className,
+  appName,
+  onClickFunc = () => {},
+}: ButtonProps) => {
   return (
-    <Buttons
-      className={className}
-      onClick={() => alert(`Hello from your ${appName} app!`)}
-    >
+    <Buttons className={className} onClick={onClickFunc}>
       {children}
+      {appName}
     </Buttons>
   );
 };
